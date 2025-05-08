@@ -1,0 +1,91 @@
+{
+    "intents": [
+        {
+            "tag": "selamlama",
+            "patterns": [
+                "Merhaba",
+                "NasÄ±lsÄ±n?",
+                "Orada biri var mÄ±?",
+                "Selam",
+                "GÃ¼naydÄ±n",
+                "Merhaba dÃ¼nya",
+                "Selamlar"
+            ],
+            "responses": [
+                "Merhaba!",
+                "Tekrar gÃ¶rmek gÃ¼zel!",
+                "Selam! Sana nasÄ±l yardÄ±mcÄ± olabilirim?"
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "veda",
+            "patterns": [
+                "GÃ¶rÃ¼ÅŸÃ¼rÃ¼z",
+                "HoÅŸÃ§a kal",
+                "Bay bay",
+                "Sonra gÃ¶rÃ¼ÅŸÃ¼rÃ¼z",
+                "Kendine iyi bak"
+            ],
+            "responses": [
+                "GÃ¶rÃ¼ÅŸmek Ã¼zere!",
+                "GÃ¼zel bir gÃ¼n geÃ§ir!",
+                "HoÅŸÃ§a kal! Tekrar beklerim."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "ÅŸaka",
+            "patterns": [
+                "Bana bir ÅŸaka yap",
+                "Komik bir ÅŸey sÃ¶yle",
+                "GÃ¼ldÃ¼r beni"
+            ],
+            "responses": [
+                "Bir saat yedim, Ã§ok zaman aldÄ±!",
+                "Bir balÄ±k markete girmiÅŸ... Ama Ã§Ä±kamamÄ±ÅŸ!",
+                "Ä°ki atom barda oturuyormuÅŸ, biri diÄŸerine: 'Elektronunu kaybettim!' demiÅŸ. Ã–teki: 'Emin misin?' demiÅŸ. O da: 'Pozitifim!'"
+            ],
+            "context": ["ÅŸaka"]
+        },
+        {
+            "tag": "kimlik",
+            "patterns": [
+                "Sen kimsin?",
+                "Sen nesin?"
+            ],
+            "responses": [
+                "Ben Akriha Teknoloji'nin geliÅŸtirdiÄŸi hidra adÄ±nda bir yapay zeka asistanÄ±yÄ±m. Su Ã¼zerindeki mikroplastik ve Ã§Ã¶pleri temizlemek iÃ§in Ã§alÄ±ÅŸÄ±yorum!"
+            ]
+        },
+       
+        {
+            "intents": [
+              {
+                "tag": "cop_kaciyor_mu",
+                "patterns": [
+                  "Ã§Ã¶pler kaÃ§Ä±yor mu?",
+                  "Seni gÃ¶ren Ã§Ã¶pler kaÃ§Ä±yor mu?",
+                  "Ã§Ã¶pler senden korkuyor mu?"
+                ],
+                "responses": [
+                  "KaÃ§amÄ±yorlar, Ã§Ã¼nkÃ¼ ben onlardan hÄ±zlÄ±yÄ±m. KaÃ§anÄ± da yakalayÄ±p kutuya basarÄ±m"
+                ]
+          
+          },
+       
+        {
+            "tag": "programcÄ±",
+            "patterns": [
+                "Seni kim yaptÄ±?",
+                "Seni kim programladÄ±?"
+            ],
+            "responses": [
+                "Beni Akriha Teknoloji ekibi gelistirdi!"
+            ]
+        }
+        }
+    ]
+}
